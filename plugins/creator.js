@@ -7,7 +7,7 @@ let handler = async(m, { conn }) => {
     showAdAttribution: true,
     mediaUrl: data.sc,
     mediaType: 2,
-    body: 'Owner Saya Ganteng Loh Kak',
+    body: 'Owner Saya Ganteng Loh Kak🗿',
     title: 'Nih My Owner',
     sourceUrl: data.sc,
     thumbnail: await(await fetch(img)).buffer(),
@@ -15,7 +15,7 @@ let handler = async(m, { conn }) => {
   })
 	]
 	await delay(100)
-  return conn.sendMessage(m.chat, { text: `Hay kak @${m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^`, mentions: [m.sender] }, { quoted: conn.p[id][0]
+  return conn.sendMessage(m.chat, { text: `Hay kak @${m.sender.split('@')[0]}, itu nomor ownerku jangan dispam tod`, mentions: [m.sender] }, { quoted: conn.p[id][0]
   })
   await delay(100)
   return delete conn.p[id]
